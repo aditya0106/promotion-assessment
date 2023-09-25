@@ -14,7 +14,7 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: kubernetes01/sample:0.2
         name: sample-app
         ports:
         - containerPort: 80
