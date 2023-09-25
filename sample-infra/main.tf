@@ -24,6 +24,6 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-test-bucket"
+  bucket = "terraform-backend-state-aditya-v2"
 
 }
